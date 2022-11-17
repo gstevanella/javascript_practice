@@ -1,0 +1,116 @@
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    font-size: 2.1em;
+  }
+  
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    font-size: 1.6em;
+    background-color: #8ed2c9;
+    color: #fcf4d9;
+  }
+  
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    font-size: 1.6em;
+  }
+  h4 {
+    font-family: 'Playfair Display', serif;
+    font-style: bold;
+    font-size: 1.6em;
+    background-color: #fcf4d9;
+    color:#8ed2c9;
+  }
+  body { 
+    margin:0; 
+    padding:4%;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  /* visualization related */
+  p1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+  }
+  .table  {
+    background-color:#fcf4d9;border-collapse:collapse;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {
+    background-color: #8ed2c9;
+  }
+  #map {
+    position: relative;
+    /*border: 3px solid green; */
+    border-radius: 8px;
+    height: 550px;  /* or as desired */
+    width: 100%;  /* This means "100% of the width of its container", the .col-*/
+  }
+  
+  
+  svg {
+    position: relative;  /*adding to basic structure*/
+    /*border: 2px solid gray;*/
+    border-radius: 3px;
+    font-family: 'Playfair Display', serif;
+    color: grey;
+  }
+  
+  /* bootstrap related */
+  
+  .container, .container-fluid {
+    background-color: white;
+    border: gainsboro 0px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .row {
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* extra font styling */
+  
+  #text-zero {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    /* color: rgb(33, 82, 1); */ 
+    font-size: 1.2em;
+    padding-top: 30px;
+    text-align:justify;
+  }
+  
+  #text-one {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: green;
+    font-size: 1.5em;
+    padding-top: 30px;
+    text-align:justify;
+  }
+  
+  /* credits */
+  
+  .credits  {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8em;
+  }
+  
+  
+  
+   /* LOGO */
+   .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+   }
