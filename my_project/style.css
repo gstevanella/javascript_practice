@@ -1,0 +1,128 @@
+body { 
+  margin:0; 
+  padding:4%; 
+}
+
+/* visualization related */
+
+
+
+#map {
+  position: relative;
+  /*border: 1px solid gray;*/
+  border-radius: 0px;
+  height: 700px;  /* or as desired */
+  width: 100%;  /* This means "100% of the width of its container", the .col-*/
+}
+
+#chart { 
+  position: relative;
+  height: 100%;  /* or as desired */
+  width: 100%;  /* This means "100% of the width of its container"*/
+  max-width: 500px;
+  white-space: normal;
+}
+
+svg {
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+/* bootstrap related */
+
+.container, .container-fluid {
+  background-color: white;
+  border: gainsboro 0px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.row {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+/* extra font styling */
+
+#text-two {
+  font-style: italic;
+  font-size: .8em;
+  padding-top: 30px;
+}
+
+/* credits */
+
+.credits  {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .8em;
+}
+
+#creditlines   {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  white-space: normal;
+}
+
+/* first letter */
+p::first-letter {
+  float: center-left;
+  line-height: 0px;
+  font-size: 40px;
+  padding-right: 1px;
+  padding-left: 5px;
+  color: #668ba4;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+
+/*restyling navigation bar*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #668ba4;
+  color: #feffdf;
+ }
+
+ .nav-links a {
+  align-items: right;
+  color:  #feffdf;
+ }
+ /* LOGO */
+ .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+ }
+ /* NAVBAR MENU */
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+ }
+ .menu li:hover {
+  background-color: black;
+  border-radius: 5px;
+  transition: 0.3s ease;
+ }
+ .menu li {
+  padding: 5px 14px;
+ }
