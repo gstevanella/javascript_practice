@@ -1,30 +1,58 @@
 body { 
   margin:0; 
   padding:4%; 
+  background-color: #c6d2da;
 }
 
-/* visualization related */
+/*styling table*/
+.table  {
+  position: relative;
+  background-color:#feffdf;border-collapse:collapse;
+}
 
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background-color: yellow;
+}
 
+/* vis and contents related */
 
+h1{
+  color: #668ba4;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  position:center;
+}
+p {
+  font-family: 'Playfair Display', serif;
+  position:center;
+}
 #map {
   position: relative;
   /*border: 1px solid gray;*/
   border-radius: 0px;
-  height: 700px;  /* or as desired */
-  width: 100%;  /* This means "100% of the width of its container", the .col-*/
+  height: 700px;  
+  width: 100%;  
 }
 
 #chart { 
   position: relative;
-  height: 100%;  /* or as desired */
-  width: 100%;  /* This means "100% of the width of its container"*/
-  max-width: 500px;
+  background-color: #c6d2da ;
+  height: 100%; 
+  width:100%;  
+  max-width: 900px;
   white-space: normal;
+  border-radius: 0px;
+  display: flex;
+
 }
 
 svg {
-  border: 1px solid gray;
+  position: relative; 
   border-radius: 8px;
 }
 
@@ -47,8 +75,9 @@ svg {
 
 #text-two {
   font-style: italic;
-  font-size: .8em;
-  padding-top: 30px;
+  font-size: 1em;
+  padding-top: 10px;
+  justify-content: space-between;
 }
 
 /* credits */
@@ -65,17 +94,18 @@ svg {
   white-space: normal;
 }
 
-/* first letter */
+/* first letter (not sure I'll use it though)*/
 p::first-letter {
   float: center-left;
-  line-height: 0px;
-  font-size: 40px;
+  padding-right: 1px;
+  padding-left: 5px;
+  font-size: 30px;
   padding-right: 1px;
   padding-left: 5px;
   color: #668ba4;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-bottom: -5px;
+  margin-bottom: -1px;
   margin-right: 5px;
 }
 

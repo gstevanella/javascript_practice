@@ -1,6 +1,7 @@
 // This is my javascript for the map which will go into the div in the html index
 
-  // Setting up initial map center and zoom level//
+//for other other options explore to render this dataset see test_1_do_not_use or test_do_not_use - so far was the below was
+//the only option that would work, but there has to be a better system
   
 
 let addressPoints = [
@@ -2112,7 +2113,7 @@ let addressPoints = [
 [40.826167, 14.148667,  ' Campi Flegrei ' ,  ' Magnitude 2 ' ,  ' EventType earthquake ' ]
 ]
 
-  // Creating Map layers //
+  // Creating my map layers //
 
 const map = L.map('map').setView([43, 13], 6);
 let controlLayers = L.control.layers( null, null, null, null, {
@@ -2148,7 +2149,7 @@ let markers = L.markerClusterGroup();
 
 for (let i = 0; i < addressPoints.length; i++) {
   let a = addressPoints[i];
-  let title = (a[2]);
+  let title = (a[2] + " "+ a[3] );
   let marker = L.marker(new L.LatLng(a[0], a[1]), {
     title: title
   });
